@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+
+}
+.tit {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+h1 {
+  color: aliceblue;
+  text-align: center;
+}
+svg {
+  z-index: 1;
+  color: rgba(255, 228, 196, 0.5);
+  width: 30px;
+  height: auto;
+
+}
